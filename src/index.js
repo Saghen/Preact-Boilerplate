@@ -1,10 +1,9 @@
 import { render } from 'preact';
 import React from 'preact/compat';
 
-import router from 'hookrouter';
+import Router from './router';
 
 render(
-  <div>
-  </div>,
+  <Router />,
   document.querySelector('#root')
 );
